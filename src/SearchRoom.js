@@ -19,15 +19,17 @@ function SearchRoom(){
         return lowerCaseWord.indexOf(lowerCaseSearchString) === 0;
     }
 
-  const resultList = elements.filter(room => matchSearch(room.room)).slice(1,10);
+    const resultList = elements.filter(room => matchSearch(room.room)).slice(1,10);
 
 return(
 <div className="App">
-    <input id="input" type="text" placeholder="Sök efter lokal..." onChange={changeInput}/>
-    {resultList.map((input) => (
-    <LocationInfo key={input.room} data={input}/>
-    ))
-    }
+    <div className="searchResults">
+        <input id="input" type="text" placeholder="Sök efter lokal..." onChange={changeInput}/>
+        {resultList.map((input) => (
+        <LocationInfo key={input.room} data={input}/>
+        ))
+        }
+    </div>
     <img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
 </div>
 )}
