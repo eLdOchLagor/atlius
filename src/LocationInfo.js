@@ -1,8 +1,6 @@
-import { findByLabelText } from "@testing-library/react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function LocationInfo(loc) {
-    //console.log(loc);
     return (
     <Link to={"/map/" + loc.data.room}>
     <div className="room">

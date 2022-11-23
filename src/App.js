@@ -1,14 +1,13 @@
 import './App.css';
-import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useParams, Link } from "react-router-dom";
-import LocationList from './LocationList.js';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import SearchRoom from './SearchRoom.js';
 import LocationDetails from './LocationDetails';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LocationList />}/>
+        <Route path="/" element={<SearchRoom />}/>
         <Route path="/map/:room" element={<LocationDetails />} />
       </Routes>
     </BrowserRouter>
