@@ -1,12 +1,11 @@
-import TP_4 from './TP_4.svg';
-import TP_5 from './TP_5.svg';
-import { useState } from 'react';
+import {ReactComponent as Map} from './maps/startPage.svg';
+import React, { useState } from 'react';
 import LocationInfo from './LocationInfo.js';
 import {elements} from './DataBase.js';
 
 function SearchRoom(){
 
-    const [searchString, setSearchString] = useState("temp");
+    const [searchString, setSearchString] = useState("");
 
     function changeInput(event) {
         setSearchString(event.target.value);
@@ -19,10 +18,10 @@ function SearchRoom(){
         return lowerCaseWord.indexOf(lowerCaseSearchString) === 0;
     }
 
-    const resultList = elements.filter(room => matchSearch(room.room)).slice(1,10);
-
+    const resultList = elements.filter(room => matchSearch(room.room));
+    //<img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
 return(
-<div className="App">
+    <div className="App">
     <div className="searchResults">
         <input id="input" type="text" placeholder="Sök efter lokal..." onChange={changeInput}/>
         {resultList.map((input) => (
@@ -30,7 +29,8 @@ return(
         ))
         }
     </div>
-    <img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
+    
+    <Map width={70+"vw"} height={100+"vh"}/>
 </div>
 )}
 

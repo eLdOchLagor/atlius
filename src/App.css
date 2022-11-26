@@ -33,11 +33,16 @@ input {
   z-index: 1;
 }
 
-#mapImage {
-  position: absolute;
-  left: 0; 
-  right: 0; 
-  margin: auto;
-  z-index: -1;
-  width: 100vw;
+svg {
+  margin-top: 0vh;
+}
+
+/*CSS för svg kartan på /map/ */
+#Lager_2{
+  margin-top: 20vh;
+}
+
+/*Text för kartan*/
+#description{
+  text-align: center;
 }
