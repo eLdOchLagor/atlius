@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {useParams} from "react-router-dom";
 import {elements} from './DataBase.js';
 import {ReactComponent as Täppan5} from './maps/Täppan4.svg';
+import { Link } from "react-router-dom";
 
 function getRoomByName(room){
     const found = elements.find(element => {
@@ -23,6 +24,13 @@ function LocationDetails(){
 
     return(
         <div className="details">
+            <Link to="/">
+                <div id="tillbakaKnapp" >
+                    TillbakaKnapp
+                </div>
+            </Link>
+              
+        
             <Täppan5/>
             <div id="description">
                 <h1>{room.room}</h1>
@@ -30,6 +38,7 @@ function LocationDetails(){
                 <h2>Våning {room.floor}</h2>
             </div>
         </div>
+
     )
     
 }

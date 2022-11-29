@@ -16,8 +16,7 @@ a {
 }
 
 input {
-  font-size: 5vw;
-  width: 80vw;
+  
   margin-top: 4vh;
 }
 
@@ -45,4 +44,30 @@ svg {
 /*Text för kartan*/
 #description{
   text-align: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+    padding-right: 50px;
+}
+
+input[type="reset"] {
+    margin-left: -53px;
+    height: 20px;
+    width: 50px;
+    margin-top: 4vh;
+    font-size: 2.1vw;
+
+
+}
+
+#resetKnapp {
+  color:black;
+  background-color: lightblue;
+}
+
+#tillbakaKnapp{
+  color:black;
+  background-color: lightblue;
 }

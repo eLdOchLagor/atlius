@@ -5,25 +5,36 @@ import {elements} from './DataBase.js';
 
 function SearchRoom(){
 
-    const [searchString, setSearchString] = useState("");
+    const [searchString, setSearchString] = useState("§");
 
     function changeInput(event) {
         setSearchString(event.target.value);
     }
 
     function matchSearch(word) {
-        const lowerCaseWord = word.toLowerCase();
+        if(searchString!==""){
+           const lowerCaseWord = word.toLowerCase();
         const lowerCaseSearchString = searchString.toLowerCase();
 
         return lowerCaseWord.indexOf(lowerCaseSearchString) === 0;
+        }
+         return 0;
     }
 
-    const resultList = elements.filter(room => matchSearch(room.room));
+    function clearText(){
+        setSearchString("");
+    }
+    
+
+    const resultList = elements.filter(room => matchSearch(room.room)).slice(0,5);
     //<img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
 return(
     <div className="App">
     <div className="searchResults">
-        <input id="input" type="text" placeholder="Sök efter lokal..." onChange={changeInput}/>
+        <form>
+            <input id="input" type="text"  placeholder="Sök efter lokal..." onChange={changeInput}/>
+            <input id="resetKnapp" type="reset" value="reset" onClick={clearText}/>
+        </form>
         {resultList.map((input) => (
         <LocationInfo key={input.room} data={input}/>
         ))
