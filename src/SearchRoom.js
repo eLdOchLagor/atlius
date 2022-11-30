@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import LocationInfo from './LocationInfo.js';
 import {elements} from './DataBase.js';
 
+
 function SearchRoom(){
 
     const [searchString, setSearchString] = useState("§");
@@ -23,6 +24,7 @@ function SearchRoom(){
 
     function clearText(){
         setSearchString("");
+
     }
     
 
@@ -32,7 +34,7 @@ return(
     <div className="App">
     <div className="searchResults">
         <form>
-            <input id="input" type="text"  placeholder="Sök efter lokal..." onChange={changeInput}/>
+            <input id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
             <input id="resetKnapp" type="reset" value="reset" onClick={clearText}/>
         </form>
         {resultList.map((input) => (
