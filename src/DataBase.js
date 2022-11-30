@@ -76,7 +76,7 @@ export const elements = [
   {room: 'TP4028', floor: 4, building: 'Täppan'},
   {room: 'TP4029', floor: 4, building: 'Täppan'},
   {room: 'TP4030', floor: 4, building: 'Täppan'},
-  {room: 'TP4031', floor: 4, building: 'Täppan'},
+  //{room: 'TP4031', floor: 4, building: 'Täppan'},
   {room: 'TP4032', floor: 4, building: 'Täppan'},
   {room: 'TP4033', floor: 4, building: 'Täppan'},
   {room: 'TP4034', floor: 4, building: 'Täppan'},

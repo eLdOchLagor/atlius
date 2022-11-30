@@ -33,7 +33,6 @@ return(
     <div className="searchResults">
         <form>
             <input id="input" type="text"  placeholder="Sök efter lokal..." onChange={changeInput}/>
-            <input id="resetKnapp" type="reset" value="reset" onClick={clearText}/>
         </form>
         {resultList.map((input) => (
         <LocationInfo key={input.room} data={input}/>

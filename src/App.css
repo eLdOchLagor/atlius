@@ -7,21 +7,20 @@ a {
   text-decoration: none;
   color: black;
 }
+.details{
+  background-color: white;
 
+}
 .room {
   background-color: #D9D9D9;
-  width: 80vw;
-  font-size: 2.5vw;
-  margin: auto;
-}
-
-input {
-  
-  margin-top: 4vh;
+  font-size: 2vw;
+  margin:auto;
+  height: 30px;
 }
 
 .roomTitle {
-  margin: 0;
+  margin:0;
+  width: 100%;
 }
 
 .searchResults {
@@ -29,7 +28,10 @@ input {
   left: 0; 
   right: 0; 
   margin: auto;
-  z-index: 1;
+  width:50%;
+  z-index: 1; 
+  margin-top: 5vh;
+  border:20px solid black;
 }
 
 svg {
@@ -46,28 +48,21 @@ svg {
   text-align: center;
 }
 
-input[type="text"] {
-    width: 200px;
-    height: 20px;
-    padding-right: 50px;
+#input{
+  font-size: 4vw;
+  width: calc(100% - 3px);
+  height: 30px;
+  padding: 0;
 }
 
-input[type="reset"] {
-    margin-left: -53px;
-    height: 20px;
-    width: 50px;
-    margin-top: 4vh;
-    font-size: 2.1vw;
-
-
-}
 
 #resetKnapp {
   color:black;
-  background-color: lightblue;
+  background-color: #00B3E1;
+  padding:0;
 }
 
 #tillbakaKnapp{
   color:black;
-  background-color: lightblue;
+  background-color: #00B3E1;
 }

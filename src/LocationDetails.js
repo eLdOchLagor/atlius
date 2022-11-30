@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react';
 import {useParams} from "react-router-dom";
 import {elements} from './DataBase.js';
-import {ReactComponent as Täppan5} from './maps/Täppan4.svg';
+import {ReactComponent as Täppan5} from "./maps/Täppan4.svg";
+
 import { Link } from "react-router-dom";
 
 function getRoomByName(room){
@@ -19,7 +20,7 @@ function LocationDetails(){
     console.log(mapName);
 
     useEffect(() => {
-        document.querySelector("#"+roomName).style.fill = "lightblue";
+        document.querySelector("#"+roomName).style.fill = "#00B3E1";
       }, []);
 
     return(
@@ -30,7 +31,6 @@ function LocationDetails(){
                 </div>
             </Link>
               
-        
             <Täppan5/>
             <div id="description">
                 <h1>{room.room}</h1>
