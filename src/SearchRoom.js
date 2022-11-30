@@ -30,20 +30,21 @@ function SearchRoom(){
 
     const resultList = elements.filter(room => matchSearch(room.room)).slice(0,5);
     //<img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
+
+    //onBlur måste fixas.
 return(
     <div className="App">
     <div className="searchResults">
-        <form>
-            <input id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
-            <input id="resetKnapp" type="reset" value="reset" onClick={clearText}/>
-        </form>
+        
+        <input onBlur={(e) => {e.target.value=""; clearText(); }} id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
+            
         {resultList.map((input) => (
         <LocationInfo key={input.room} data={input}/>
         ))
         }
     </div>
     
-    <Map width={70+"vw"} height={100+"vh"}/>
+    <Map width={100+"vw"}/>
 </div>
 )}
 
