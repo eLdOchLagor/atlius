@@ -31,9 +31,15 @@ function SearchRoom(){
 return(
     <div className="App">
     <div className="searchResults">
+<<<<<<< Updated upstream
         <form>
             <input id="input" type="text"  placeholder="Sök efter lokal..." onChange={changeInput}/>
         </form>
+=======
+        
+        <input id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
+            
+>>>>>>> Stashed changes
         {resultList.map((input) => (
         <LocationInfo key={input.room} data={input}/>
         ))
