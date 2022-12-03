@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import LocationInfo from './LocationInfo.js';
 import {elements} from './DataBase.js';
 
+
 function SearchRoom(){
 
     const [searchString, setSearchString] = useState("§");
@@ -23,30 +24,26 @@ function SearchRoom(){
 
     function clearText(){
         setSearchString("");
+
     }
     
 
     const resultList = elements.filter(room => matchSearch(room.room)).slice(0,5);
     //<img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
+
+    //onBlur måste fixas.
 return(
     <div className="App">
     <div className="searchResults">
-<<<<<<< Updated upstream
-        <form>
-            <input id="input" type="text"  placeholder="Sök efter lokal..." onChange={changeInput}/>
-        </form>
-=======
-        
-        <input id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
-            
->>>>>>> Stashed changes
+        <input onBlur={(e) => {e.target.value=""; clearText(); }} id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
+
         {resultList.map((input) => (
         <LocationInfo key={input.room} data={input}/>
         ))
         }
     </div>
     
-    <Map width={70+"vw"} height={100+"vh"}/>
+    <Map width={100+"vw"}/>
 </div>
 )}
 
