@@ -35,7 +35,7 @@ function SearchRoom(){
 return(
     <div className="App">
     <div className="searchResults">
-        <input onBlur={(e) => {e.target.value=""; clearText(); }} id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
+        <input id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
 
         {resultList.map((input) => (
         <LocationInfo key={input.room} data={input}/>

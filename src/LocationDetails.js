@@ -8,6 +8,7 @@ import {ReactComponent as Täppan5} from './maps/Täppan5.svg';
 import {ReactComponent as Kåkenhus1} from './maps/Kåken1.svg';
 import {ReactComponent as Kåkenhus4} from './maps/Kåken4.svg';
 import {ReactComponent as Kåkenhus5} from './maps/Kåken5.svg';
+import {ReactComponent as Back} from './icons/back.svg';
 import { Link } from "react-router-dom";
 
 function getRoomByName(room){
@@ -31,10 +32,12 @@ function LocationDetails(){
     return(
         <div className="details">
             <Link to="/">
-                <div id="tillbakaKnapp" >
-                    TillbakaKnapp
-                </div>
+                <div id="tillbakaKnapp">
+                <Back/>   
+                </div>       
             </Link>
+
+   
 
             {mapName=='Täppan3' &&
                 <Täppan3/>
