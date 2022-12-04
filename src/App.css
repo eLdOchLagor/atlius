@@ -44,7 +44,19 @@ svg {
 /*CSS för svg kartan på /map/ */
 #Lager_2{
   margin-top: 20vh;
+  width:95%;
+  
+
 }
+#Lager_1 {
+    margin-top: 20vh;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: auto;
+
+}
+
+
 
 /*Text för kartan*/
 #description{
@@ -60,20 +72,28 @@ svg {
   margin-bottom: 0vh;
 }
 
-#input{
-  font-size: 4vw;
-  width: 100%;
-  height: 30px;
-  padding: 0;
-  border: 0;
+#input {
+    font-size: 4vw;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI';
+    text-align: center;
 }
 
-#tillbakaKnapp{
-  color:black;
-  background-color: #00B3E1;
-  height: 10vh;
-  width: 17vw;
-  position: absolute;
+#input:focus {
+    outline: none;
+    border: 0.5px solid blue;
+}
+
+
+#tillbakaKnapp {
+    color: black;
+    background-color: #00B3E1;
+    height: 10vh;
+    width: 17vw;
+    position: absolute;
 }
 
 /*Våningsknapparna på /map/ */
