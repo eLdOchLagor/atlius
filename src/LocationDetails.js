@@ -6,6 +6,8 @@ import {ReactComponent as Täppan3} from './maps/Täppan3.svg';
 import {ReactComponent as Täppan4} from './maps/Täppan4.svg';
 import {ReactComponent as Täppan5} from './maps/Täppan5.svg';
 import {ReactComponent as Kåkenhus1} from './maps/Kåken1.svg';
+import {ReactComponent as Kåkenhus2} from './maps/Kåken2.svg';
+import {ReactComponent as Kåkenhus3} from './maps/Kåken3.svg';
 import {ReactComponent as Kåkenhus4} from './maps/Kåken4.svg';
 import {ReactComponent as Kåkenhus5} from './maps/Kåken5.svg';
 import {ReactComponent as Back} from './icons/back.svg';
@@ -60,6 +62,15 @@ function LocationDetails(){
                 <Täppan5/>
             }
             
+            {mapName=='Kåkenhus1' &&
+                <Kåkenhus4/>
+            }
+            {mapName=='Kåkenhus2' &&
+                <Kåkenhus5/>
+            }
+            {mapName=='Kåkenhus3' &&
+                <Kåkenhus5/>
+            }
             {mapName=='Kåkenhus4' &&
                 <Kåkenhus4/>
             }
