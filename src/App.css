@@ -75,3 +75,14 @@ svg {
   width: 17vw;
   position: absolute;
 }
+
+/*Våningsknapparna på /map/ */
+#floorContainer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#floorContainer button{
+  width: 100%;
+}

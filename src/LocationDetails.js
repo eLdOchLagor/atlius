@@ -19,15 +19,28 @@ function getRoomByName(room){
 }
 
 function LocationDetails(){
+    var mapName;
     const {roomName} = useParams();
     const room = getRoomByName(roomName);
-
-    const mapName = room.building + room.floor;
-    console.log(mapName);
+    
+    if(room){
+        mapName = room.building + room.floor;
+        console.log(mapName);
+    }
+    else{
+        mapName = roomName;
+        console.log(mapName);
+    }
     
     useEffect(() => {
-        document.querySelector("#"+roomName).style.fill = "#00B3E1";
+        if(room){
+            document.querySelector("#"+roomName).style.fill = "#00B3E1";
+        }
         }, []);
+
+        function changeFloor(){
+
+        }
 
     return(
         <div className="details">
@@ -37,19 +50,14 @@ function LocationDetails(){
                 </div>       
             </Link>
 
-   
-
             {mapName=='Täppan3' &&
                 <Täppan3/>
-
             }
             {mapName=='Täppan4' &&
                 <Täppan4/>
-
             }
             {mapName=='Täppan5' &&
                 <Täppan5/>
-
             }
             
             {mapName=='Kåkenhus4' &&
@@ -59,14 +67,38 @@ function LocationDetails(){
                 <Kåkenhus5/>
             }
             
+            {mapName=='Tappan' &&
+            <>
+                <Täppan3/>
+                <div id='floorContainer'>
+                <button onClick={changeFloor}>Våning 3</button>
+                <button onClick={changeFloor}>Våning 4</button>
+                <button onClick={changeFloor}>Våning 5</button>
+                </div>
+            </>
+            }
+            {mapName=='Kakenhus' &&
+            <>
+                <Kåkenhus1/>
+                <div id='floorContainer'>
+                <button onClick={changeFloor}>Våning 1</button>
+                <button onClick={changeFloor}>Våning 2</button>
+                <button onClick={changeFloor}>Våning 3</button>
+                <button onClick={changeFloor}>Våning 4</button>
+                <button onClick={changeFloor}>Våning 5</button>
+                </div>
+            </>
+            }
+            
+            {mapName!=roomName &&
                 <div id="description">
-                <h1>{room.room}</h1>
-                <h2>Ligger i {room.building}</h2>
-                <h2>Våning {room.floor}</h2>
-            </div>
+                    <h1>{room.room}</h1>
+                    <h2>Ligger i {room.building}</h2>
+                    <h2>Våning {room.floor}</h2>
+                </div>
+            }
         </div>
 
     )
-    
 }
 export default LocationDetails;

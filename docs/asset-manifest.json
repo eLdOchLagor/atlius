@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/atlius/static/css/main.2d3dfda2.css",
+    "main.js": "/atlius/static/js/main.686bc1f5.js",
+    "static/js/787.c905527a.chunk.js": "/atlius/static/js/787.c905527a.chunk.js",
+    "static/media/Täppan5.svg": "/atlius/static/media/Täppan5.1c51f8d6d058171fe4364b707b836ab5.svg",
+    "static/media/Täppan4.svg": "/atlius/static/media/Täppan4.d96d9c0454c301a6a3fe39921ce252a4.svg",
+    "static/media/Täppan3.svg": "/atlius/static/media/Täppan3.4d3e40711c9557f04195abc0f622f494.svg",
+    "static/media/Kåken5.svg": "/atlius/static/media/Kåken5.f2da1f659bbbae141140763685d6df95.svg",
+    "static/media/Kåken1.svg": "/atlius/static/media/Kåken1.5213175e020711341e5d164afd3b6241.svg",
+    "static/media/startPage.svg": "/atlius/static/media/startPage.fb1a763b72c3ff67eb76266ac3db207d.svg",
+    "static/media/Kåken4.svg": "/atlius/static/media/Kåken4.ed539357354fb8603516857ca8e60608.svg",
+    "index.html": "/atlius/index.html",
+    "static/media/back.svg": "/atlius/static/media/back.64a2fe103179900e8297fc87dbc7e607.svg",
+    "main.2d3dfda2.css.map": "/atlius/static/css/main.2d3dfda2.css.map",
+    "main.686bc1f5.js.map": "/atlius/static/js/main.686bc1f5.js.map",
+    "787.c905527a.chunk.js.map": "/atlius/static/js/787.c905527a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d3dfda2.css",
+    "static/js/main.686bc1f5.js"
+  ]
+}
