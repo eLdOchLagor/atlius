@@ -402,15 +402,15 @@
   <line class="cls-9" x1="166.96" y1="382.21" x2="167.05" y2="372.6"/>
   <line class="cls-5" x1="388.02" y1="174.83" x2="388.02" y2="184.31"/>
   <line class="cls-9" x1="257.19" y1="106.66" x2="233.86" y2="106.7"/>
-  <rect class="cls-1" x="147.15" y="220.35" width="57.73" height="91.57"/>
-  <polygon class="cls-1" points="146.6 314.25 146.6 349.79 149.91 349.79 149.91 370.68 205.04 370.68 204.89 314.25 146.6 314.25"/>
-  <rect class="cls-1" x="171.49" y="403.4" width="32.64" height="26.66"/>
-  <rect class="cls-1" x="242.75" y="401.56" width="30.74" height="28.5"/>
-  <rect class="cls-1" x="275.85" y="401.56" width="31.67" height="28.5"/>
-  <rect class="cls-1" x="309.29" y="401.56" width="31.84" height="28.5"/>
-  <rect class="cls-1" x="375.55" y="332.99" width="58.58" height="56.61"/>
-  <rect class="cls-1" x="375.55" y="276.64" width="58.58" height="53.99"/>
-  <rect class="cls-1" x="375.55" y="217.53" width="58.58" height="56.74"/>
+  <rect id="TP42" class="cls-1" x="147.15" y="220.35" width="57.73" height="91.57"/>
+  <polygon id="TP44" class="cls-1" points="146.6 314.25 146.6 349.79 149.91 349.79 149.91 370.68 205.04 370.68 204.89 314.25 146.6 314.25"/>
+  <rect id="TP404" class="cls-1" x="171.49" y="403.4" width="32.64" height="26.66"/>
+  <rect id="TP403" class="cls-1" x="242.75" y="401.56" width="30.74" height="28.5"/>
+  <rect id="TP402" class="cls-1" x="275.85" y="401.56" width="31.67" height="28.5"/>
+  <rect id="TP401" class="cls-1" x="309.29" y="401.56" width="31.84" height="28.5"/>
+  <rect id="TP45" class="cls-1" x="375.55" y="332.99" width="58.58" height="56.61"/>
+  <rect id="TP43" class="cls-1" x="375.55" y="276.64" width="58.58" height="53.99"/>
+  <rect id="TP41" class="cls-1" x="375.55" y="217.53" width="58.58" height="56.74"/>
   <text class="cls-14" transform="translate(160.22 271.89)"><tspan x="0" y="0">TP42</tspan></text>
   <text class="cls-14" transform="translate(160.63 347.04)"><tspan x="0" y="0">TP44</tspan></text>
   <text class="cls-12" transform="translate(171.94 420.54)"><tspan x="0" y="0">TP404</tspan></text>
@@ -420,25 +420,25 @@
   <text class="cls-14" transform="translate(388.03 366.82)"><tspan x="0" y="0">TP45</tspan></text>
   <text class="cls-14" transform="translate(388.03 308.72)"><tspan x="0" y="0">TP43</tspan></text>
   <text class="cls-14" transform="translate(388.03 251.59)"><tspan x="0" y="0">TP41</tspan></text>
-  <polygon class="cls-1" points="8.49 163.5 62.15 163.55 62.49 217.45 4.43 217.45 8.49 163.5"/>
-  <polygon class="cls-1" points="8.64 161.37 62.15 161.37 62.01 103.64 12.9 104.13 8.64 161.37"/>
-  <polygon class="cls-1" points="13.19 101.9 62.15 101.42 61.96 39.05 18.03 38.81 13.19 101.9"/>
-  <polygon class="cls-1" points="78.38 98.87 117.41 98.68 117.54 108.03 127.03 108.03 127.03 140.87 78.38 140.87 78.38 98.87"/>
+  <polygon id="TP4003" class="cls-1" points="8.49 163.5 62.15 163.55 62.49 217.45 4.43 217.45 8.49 163.5"/>
+  <polygon id="TP4004" class="cls-1" points="8.64 161.37 62.15 161.37 62.01 103.64 12.9 104.13 8.64 161.37"/>
+  <polygon id="TP4005" class="cls-1" points="13.19 101.9 62.15 101.42 61.96 39.05 18.03 38.81 13.19 101.9"/>
+  <polygon id="TP4009" class="cls-1" points="78.38 98.87 117.41 98.68 117.54 108.03 127.03 108.03 127.03 140.87 78.38 140.87 78.38 98.87"/>
   <polygon class="cls-1" points="177.54 108.1 232.72 108.03 232.72 163.31 177.22 163.31 177.54 108.1"/>
   <polygon class="cls-1" points="235.18 108.1 288.86 108.03 288.87 163.27 234.86 163.27 235.18 108.1"/>
   <polygon class="cls-1" points="292.12 108.03 322.06 108.03 322.06 135 291.67 135 292.12 108.03"/>
   <polygon class="cls-1" points="324.42 108.04 354.96 108.04 354.96 135 323.96 135 324.42 108.04"/>
-  <polygon class="cls-1" points="380.22 98.29 434.77 98.29 434.77 156.87 379.4 156.87 380.22 98.29"/>
-  <polygon class="cls-1" points="380.87 34.55 434.77 34.55 434.77 94.93 380.06 94.93 380.87 34.55"/>
-  <polygon class="cls-1" points="324.38 63.71 355.61 63.64 355.35 4.29 324.38 4.29 324.38 63.71"/>
-  <polygon class="cls-1" points="277.54 63.96 322.18 63.87 321.87 4.52 277.59 4.54 277.54 63.96"/>
-  <polygon class="cls-1" points="211.12 63.55 274.15 63.42 273.75 4.49 211.25 4.56 211.12 63.55"/>
-  <polygon class="cls-1" points="146.09 63.71 208.82 63.58 208.43 4.92 146.22 4.98 146.09 63.71"/>
+  <polygon id="TP4041" class="cls-1" points="380.22 98.29 434.77 98.29 434.77 156.87 379.4 156.87 380.22 98.29"/>
+  <polygon id="TP4040" class="cls-1" points="380.87 34.55 434.77 34.55 434.77 94.93 380.06 94.93 380.87 34.55"/>
+  <polygon id="TP4030" class="cls-1" points="324.38 63.71 355.61 63.64 355.35 4.29 324.38 4.29 324.38 63.71"/>
+  <polygon id="TP4029" class="cls-1" points="277.54 63.96 322.18 63.87 321.87 4.52 277.59 4.54 277.54 63.96"/>
+  <polygon id="TP4028" class="cls-1" points="211.12 63.55 274.15 63.42 273.75 4.49 211.25 4.56 211.12 63.55"/>
+  <polygon id="TP4027" class="cls-1" points="146.09 63.71 208.82 63.58 208.43 4.92 146.22 4.98 146.09 63.71"/>
   <text class="cls-13" transform="translate(16.06 194.91)"><tspan x="0" y="0">TP4003</tspan></text>
   <text class="cls-13" transform="translate(17.28 137.89)"><tspan x="0" y="0">TP4004</tspan></text>
   <text class="cls-13" transform="translate(19.25 75.18)"><tspan x="0" y="0">TP4005</tspan></text>
   <text class="cls-13" transform="translate(82.32 126.38)"><tspan x="0" y="0">TP4009</tspan></text>
-  <text class="cls-12" transform="translate(79.4 61.14)"><tspan x="0" y="0">TP4008</tspan></text>
+  <text id="TP4008" class="cls-12" transform="translate(79.4 61.14)"><tspan x="0" y="0">TP4008</tspan></text>
   <text class="cls-13" transform="translate(185.81 139.87)"><tspan x="0" y="0">TP4035</tspan></text>
   <text class="cls-13" transform="translate(242.73 140.38)"><tspan x="0" y="0">TP4034</tspan></text>
   <text class="cls-11" transform="translate(293.45 125.99)"><tspan x="0" y="0">TP4033</tspan></text>

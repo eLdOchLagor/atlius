@@ -63,13 +63,13 @@ function LocationDetails(){
             }
             
             {mapName=='Kåkenhus1' &&
-                <Kåkenhus4/>
+                <Kåkenhus1/>
             }
             {mapName=='Kåkenhus2' &&
-                <Kåkenhus5/>
+                <Kåkenhus2/>
             }
             {mapName=='Kåkenhus3' &&
-                <Kåkenhus5/>
+                <Kåkenhus3/>
             }
             {mapName=='Kåkenhus4' &&
                 <Kåkenhus4/>
@@ -90,7 +90,7 @@ function LocationDetails(){
             }
             {mapName=='Kakenhus' &&
             <>
-                <Kåkenhus1/>
+                <Kåkenhus3/>
                 <div id='floorContainer'>
                 <button onClick={changeFloor}>Våning 1</button>
                 <button onClick={changeFloor}>Våning 2</button>
