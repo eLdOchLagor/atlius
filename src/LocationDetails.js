@@ -48,7 +48,7 @@ function LocationDetails(){
     
     useEffect(() => {
         if(room){
-            document.querySelector("#"+roomName).style.fill = "#00B3E1";
+            document.querySelector("#"+roomName).style.fill="#00B3E1";
         }
         }, []);
 
@@ -93,7 +93,7 @@ function LocationDetails(){
             {mapName=='Tappan' &&
             <>
                 <div id='floorContainer'>
-                <button onClick={() => changeFloor("TP3")}>Våning 3</button>
+                <button autoFocus onClick={() => changeFloor("TP3")}>Våning 3</button>
                 <button onClick={() => changeFloor("TP4")}>Våning 4</button>
                 <button onClick={() => changeFloor("TP5")}>Våning 5</button>
                 </div>
@@ -102,7 +102,7 @@ function LocationDetails(){
             {mapName=='Kakenhus' &&
             <>
                 <div id='floorContainer'>
-                <button onClick={() => changeFloor("K1")}>Våning 1</button>
+                <button autoFocus onClick={() => changeFloor("K1")}>Våning 1</button>
                 <button onClick={() => changeFloor("K2")}>Våning 2</button>
                 <button onClick={() => changeFloor("K3")}>Våning 3</button>
                 <button onClick={() => changeFloor("K4")}>Våning 4</button>

@@ -85,24 +85,57 @@ svg {
     outline: none;
     
 }
-
-
 #tillbakaKnapp {
     color: black;
     background-color: #00B3E1;
     height: 10vh;
-    width: 17vw;
+    width: 16.5vw;
     position: absolute;
 }
 
 /*Våningsknapparna på /map/ */
 #floorContainer{
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  bottom: 0%;
+  width: 100vw;
 }
 
+
+body [style*="fill: rgb(0, 179, 225);"] {
+  animation: fade 2s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*skapa css variabel*/
+
 #floorContainer button{
-  width: 20%;
-  float: left;
+  float:left;
+  margin:0%;
+  height:10vh;
+  background-color: #00B3E1;
+  color: white;
+  border: 1px solid white;
+}
+
+#floorContainer button:focus{
+  background-color: #0085a6;
+  outline: none;
+}
+
+#floorContainer button:nth-child(-n+3){
+  width: 33.33vw;
+}
+
+#floorContainer button:nth-child(n+4){
+  width: 50vw;
 }
