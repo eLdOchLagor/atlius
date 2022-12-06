@@ -434,6 +434,7 @@
   <polygon id="TP4029" class="cls-1" points="277.54 63.96 322.18 63.87 321.87 4.52 277.59 4.54 277.54 63.96"/>
   <polygon id="TP4028" class="cls-1" points="211.12 63.55 274.15 63.42 273.75 4.49 211.25 4.56 211.12 63.55"/>
   <polygon id="TP4027" class="cls-1" points="146.09 63.71 208.82 63.58 208.43 4.92 146.22 4.98 146.09 63.71"/>
+  <rect id="TP4008" class="cls-8" x="77.17" y="38.81" width="40.21" height="34.83"/>
   <text class="cls-13" transform="translate(16.06 194.91)"><tspan x="0" y="0">TP4003</tspan></text>
   <text class="cls-13" transform="translate(17.28 137.89)"><tspan x="0" y="0">TP4004</tspan></text>
   <text class="cls-13" transform="translate(19.25 75.18)"><tspan x="0" y="0">TP4005</tspan></text>
