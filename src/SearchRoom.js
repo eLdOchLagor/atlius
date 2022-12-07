@@ -17,7 +17,7 @@ function SearchRoom(){
             const lowerCaseWord = word.toLowerCase();
             const lowerCaseSearchString = searchString.toLowerCase();
 
-            return lowerCaseWord.indexOf(lowerCaseSearchString) === 0;
+            return lowerCaseWord.search(lowerCaseSearchString) !== -1;
         }
          return 0;
     }
