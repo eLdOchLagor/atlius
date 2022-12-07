@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/atlius/static/css/main.2d3dfda2.css",
-    "main.js": "/atlius/static/js/main.686bc1f5.js",
-    "static/js/787.c905527a.chunk.js": "/atlius/static/js/787.c905527a.chunk.js",
-    "static/media/Täppan5.svg": "/atlius/static/media/Täppan5.1c51f8d6d058171fe4364b707b836ab5.svg",
-    "static/media/Täppan4.svg": "/atlius/static/media/Täppan4.d96d9c0454c301a6a3fe39921ce252a4.svg",
-    "static/media/Täppan3.svg": "/atlius/static/media/Täppan3.4d3e40711c9557f04195abc0f622f494.svg",
-    "static/media/Kåken5.svg": "/atlius/static/media/Kåken5.f2da1f659bbbae141140763685d6df95.svg",
-    "static/media/Kåken1.svg": "/atlius/static/media/Kåken1.5213175e020711341e5d164afd3b6241.svg",
-    "static/media/startPage.svg": "/atlius/static/media/startPage.fb1a763b72c3ff67eb76266ac3db207d.svg",
-    "static/media/Kåken4.svg": "/atlius/static/media/Kåken4.ed539357354fb8603516857ca8e60608.svg",
-    "index.html": "/atlius/index.html",
-    "static/media/back.svg": "/atlius/static/media/back.64a2fe103179900e8297fc87dbc7e607.svg",
-    "main.2d3dfda2.css.map": "/atlius/static/css/main.2d3dfda2.css.map",
-    "main.686bc1f5.js.map": "/atlius/static/js/main.686bc1f5.js.map",
-    "787.c905527a.chunk.js.map": "/atlius/static/js/787.c905527a.chunk.js.map"
+    "main.css": "/static/css/main.5eb91e21.css",
+    "main.js": "/static/js/main.a1252371.js",
+    "static/js/787.c905527a.chunk.js": "/static/js/787.c905527a.chunk.js",
+    "static/media/startPage.svg": "/static/media/startPage.a036bb97c70fc29e0b386302720787ab.svg",
+    "static/media/Täppan5.svg": "/static/media/Täppan5.6315755d905c0a31259b8d50a4e42879.svg",
+    "static/media/Kåken5.svg": "/static/media/Kåken5.9ea437953b003d9459b2e6cddf50facc.svg",
+    "static/media/Täppan4.svg": "/static/media/Täppan4.affd2260b5db635aa892944b81804323.svg",
+    "static/media/Kåken2.svg": "/static/media/Kåken2.edd1b195fc020965b10078a6ef8220bb.svg",
+    "static/media/Kåken4.svg": "/static/media/Kåken4.4115b144625c65d3ed85142ce02a170c.svg",
+    "static/media/Täppan3.svg": "/static/media/Täppan3.80ee25ecd233381435e14667bdc4ee61.svg",
+    "static/media/Kåken3.svg": "/static/media/Kåken3.11b6e3976b40b81cc47d8dd5af2a9f48.svg",
+    "static/media/Kåken1.svg": "/static/media/Kåken1.830592ff3e9316def4c4ccacd2b70a8a.svg",
+    "index.html": "/index.html",
+    "static/media/back.svg": "/static/media/back.64a2fe103179900e8297fc87dbc7e607.svg",
+    "main.5eb91e21.css.map": "/static/css/main.5eb91e21.css.map",
+    "main.a1252371.js.map": "/static/js/main.a1252371.js.map",
+    "787.c905527a.chunk.js.map": "/static/js/787.c905527a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d3dfda2.css",
-    "static/js/main.686bc1f5.js"
+    "static/css/main.5eb91e21.css",
+    "static/js/main.a1252371.js"
   ]
 }
