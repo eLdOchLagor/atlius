@@ -111,8 +111,16 @@ body [style*="fill: rgb(0, 179, 225);"] {
   animation-iteration-count: 5;
   animation-direction: alternate;
 }
-.cls-1 {
+
+.highlight {
   animation: fade_b 2s;
+}
+
+.start_buildings {
+  fill: #00B3E1 !important;
+  animation: fade_a 2s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
 }
 
 @keyframes fade_a {
