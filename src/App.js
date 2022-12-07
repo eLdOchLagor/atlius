@@ -6,12 +6,12 @@ import LocationDetails from './LocationDetails';
 function App() {
   return (
     <HashRouter>
-      <Routes>
+     <Routes>
         <Route path="/" element={<SearchRoom />}/>
         <Route path="/map/:roomName" element={<LocationDetails />} />
       </Routes>
     </HashRouter>
-  );
+ );
 }
 
 export default App;

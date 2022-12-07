@@ -3,10 +3,19 @@
 
 }
 
+
 /* New stuff*/
 a {
   text-decoration: none;
   color: black;
+}
+
+#headerRoom {
+  position:absolute;
+  width: 100%;
+  text-align: center;
+  z-index: -1;
+
 }
 .details{
   height: 100vh;
@@ -23,6 +32,7 @@ a:nth-child(odd) .room{
 }
 .room h1 {
   font-size: 5vw;
+
 }
 .roomTitle {
   margin:0;
@@ -43,19 +53,13 @@ svg {
 }
 
 /*CSS för svg kartan på /map/ */
-#Lager_2{
+#Lager_2, #Lager_1{
   margin-top: 20vh;
-  width:95%;
-  
-
+  width: 95%;
+  margin-left: 2%;
+  margin-right: auto;
 }
-#Lager_1 {
-    margin-top: 20vh;
-    width: 95%;
-    margin-left: 2%;
-    margin-right: auto;
 
-}
 
 /*Text för kartan*/
 #description{
@@ -91,6 +95,7 @@ svg {
     height: 10vh;
     width: 16.5vw;
     position: absolute;
+    top: 0%;
 }
 
 /*Våningsknapparna på /map/ */
@@ -127,7 +132,7 @@ body [style*="fill: rgb(0, 179, 225);"] {
   }
 }
 
-@keyframes fade_b {
+@keyframes fade_b { 
   0% {
     opacity: 0;
   }
