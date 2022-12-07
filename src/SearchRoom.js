@@ -14,27 +14,31 @@ function SearchRoom(){
 
     function matchSearch(word) {
         if(searchString!==""){
-            const lowerCaseWord = word.toLowerCase();
-            const lowerCaseSearchString = searchString.toLowerCase();
+           const lowerCaseWord = word.toLowerCase();
+        const lowerCaseSearchString = searchString.toLowerCase();
 
-            return lowerCaseWord.search(lowerCaseSearchString) !== -1;
+        return lowerCaseWord.search(lowerCaseSearchString) !== -1;
         }
          return 0;
     }
 
-    function clearText(){
+    function clearText(e){
+        setTimeout(() => {
+            e.target.value="";
         setSearchString("");
+        }, 50)
+
 
     }
     
 
-    const resultList = elements.filter(room => matchSearch(room.room)).slice(0,5);
+    const resultList = elements.filter(room => matchSearch(room.room)).sort((a,b) => a.length -b.length).slice(0,5);
     //<img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
 
     //onBlur måste fixas.
 return(
     <div className="App">
-    <div className="searchResults">
+    <div onBlur={clearText} className="searchResults">
         <input id="input" type="text"  placeholder="Sök efter lokal..." autoComplete="off" onChange={changeInput}/>
 
         {resultList.map((input) => (
