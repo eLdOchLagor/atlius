@@ -14,10 +14,10 @@ function SearchRoom(){
 
     function matchSearch(word) {
         if(searchString!==""){
-           const lowerCaseWord = word.toLowerCase();
-        const lowerCaseSearchString = searchString.toLowerCase();
+            const lowerCaseWord = word.toLowerCase();
+            const lowerCaseSearchString = searchString.toLowerCase();
 
-        return lowerCaseWord.indexOf(lowerCaseSearchString) === 0;
+            return lowerCaseWord.indexOf(lowerCaseSearchString) === 0;
         }
          return 0;
     }
