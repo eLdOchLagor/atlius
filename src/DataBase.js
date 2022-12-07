@@ -43,8 +43,6 @@ export const elements = [
   { room: 'K4504', building: 'Kåkenhus', floor: 5},
   { room: 'K23', building: 'Kåkenhus', floor: 2},
   { room: 'Fargeriet', building: 'Kåkenhus', floor: 1},
-  { room: 'Utsikten', building: 'Kåkenhus', floor: 8},
-  { room: 'Strömmen', building: 'Kåkenhus', floor: 4},
   {room: 'TP1', floor: 3, building: 'Täppan'},
   {room: 'TP2', floor: 3, building: 'Täppan'},
   {room: 'TP32', floor: 3, building: 'Täppan'},

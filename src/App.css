@@ -3,10 +3,19 @@
 
 }
 
+
 /* New stuff*/
 a {
   text-decoration: none;
   color: black;
+}
+
+#headerRoom {
+  position:absolute;
+  width: 100%;
+  text-align: center;
+  z-index: -1;
+
 }
 .details{
   height: 100vh;
@@ -23,6 +32,7 @@ a:nth-child(odd) .room{
 }
 .room h1 {
   font-size: 5vw;
+
 }
 .roomTitle {
   margin:0;
@@ -85,6 +95,7 @@ svg {
     height: 10vh;
     width: 16.5vw;
     position: absolute;
+    top: 0%;
 }
 
 /*Våningsknapparna på /map/ */

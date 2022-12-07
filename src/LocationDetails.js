@@ -65,34 +65,59 @@ function LocationDetails(){
             </Link>
 
             {(mapName==='Täppan3' || currentFloor=='TP3') &&
-                <Täppan3/>
+                <>
+                    <h1 id="headerRoom">Täppan</h1>
+                    <Täppan3/>
+                </>
             }
             {(mapName==='Täppan4' || currentFloor=='TP4') &&
-                <Täppan4/>
+                <>
+                    <h1 id="headerRoom">Täppan</h1>
+                    <Täppan4/>
+                </>
             }
             {(mapName==='Täppan5' || currentFloor=='TP5') &&
-                <Täppan5/>
+                <>
+                    <h1 id="headerRoom">Täppan</h1>
+                    <Täppan5/>
+                </>
             }
             
             {(mapName==='Kåkenhus1' || currentFloor=='K1') &&
-                <Kåkenhus1/>
+                <>
+                    <h1 id="headerRoom">Kåkenhus</h1>
+                    <Kåkenhus1/>
+                </>
+               
             }
             {(mapName==='Kåkenhus2' || currentFloor=='K2') &&
-                <Kåkenhus2/>
+                <>
+                    <h1 id="headerRoom">Kåkenhus</h1>
+                    <Kåkenhus2/>
+                </>
             }
             {(mapName==='Kåkenhus3' || currentFloor=='K3') &&
-                <Kåkenhus3/>
+                <>
+                    <h1 id="headerRoom">Kåkenhus</h1>
+                    <Kåkenhus3/>
+                </>
             }
             {(mapName==='Kåkenhus4' || currentFloor=='K4') &&
-                <Kåkenhus4/>
+                <>
+                    <h1 id="headerRoom">Kåkenhus</h1>
+                    <Kåkenhus4/>
+                </>
             }
             {(mapName==='Kåkenhus5' || currentFloor=='K5') &&
-                <Kåkenhus5/>
+                <>
+                    <h1 id="headerRoom">Kåkenhus</h1>
+                    <Kåkenhus5/>
+                </>
             }
             
             {mapName==='Tappan' &&
             <>
-                <h1>Täppan</h1>
+                
                 <div id='floorContainer'>
                 <button autoFocus onClick={() => changeFloor("TP3")}>Våning 3</button>
                 <button onClick={() => changeFloor("TP4")}>Våning 4</button>
@@ -102,7 +127,7 @@ function LocationDetails(){
             }
             {mapName==='Kakenhus' &&
             <>
-                <h1>Kåkenhus</h1>
+
                 <div id='floorContainer'>
                 <button onClick={() => changeFloor("K1")}>Våning 1</button>
                 <button autoFocus onClick={() => changeFloor("K2")}>Våning 2</button>
@@ -115,7 +140,7 @@ function LocationDetails(){
             
             {mapName!==roomName &&
             <>
-                <h1>{room.building}</h1>
+
                 <div id="description">
                     <h2>{room.room}</h2>
                     <h2>Våning {room.floor}</h2>
