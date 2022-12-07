@@ -48,7 +48,7 @@ function LocationDetails(){
     
     useEffect(() => {
         if(room){
-            document.querySelector("#"+roomName).style.fill="#00B3E1";
+            document.querySelector("#"+roomName).classList.add("start_buildings");
         }
         }, []);
 

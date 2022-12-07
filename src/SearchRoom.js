@@ -28,7 +28,8 @@ function SearchRoom(){
     }
     
 
-    const resultList = elements.filter(room => matchSearch(room.room)).slice(0,5);
+    const resultList = elements.filter(room => matchSearch(room.room)).sort((a,b) => a.length - b.length).slice(0,5);
+
     //<img id="mapImage" src={TP_4} placeholder="Bild på planlösning"></img>
 
     //onBlur måste fixas.
