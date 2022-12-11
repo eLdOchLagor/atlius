@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/atlius/static/css/main.671f6cd0.css",
+    "main.css": "/atlius/static/css/main.02bb53ef.css",
     "main.js": "/atlius/static/js/main.927e4800.js",
     "static/js/787.c905527a.chunk.js": "/atlius/static/js/787.c905527a.chunk.js",
     "static/media/startPage.svg": "/atlius/static/media/startPage.f88fa9beb7204e0d93f28d2436b2ad46.svg",
@@ -14,12 +14,12 @@
     "static/media/Kåken1.svg": "/atlius/static/media/Kåken1.830592ff3e9316def4c4ccacd2b70a8a.svg",
     "index.html": "/atlius/index.html",
     "static/media/back.svg": "/atlius/static/media/back.64a2fe103179900e8297fc87dbc7e607.svg",
-    "main.671f6cd0.css.map": "/atlius/static/css/main.671f6cd0.css.map",
+    "main.02bb53ef.css.map": "/atlius/static/css/main.02bb53ef.css.map",
     "main.927e4800.js.map": "/atlius/static/js/main.927e4800.js.map",
     "787.c905527a.chunk.js.map": "/atlius/static/js/787.c905527a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.671f6cd0.css",
+    "static/css/main.02bb53ef.css",
     "static/js/main.927e4800.js"
   ]
 }
